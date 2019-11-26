@@ -4,8 +4,7 @@
 
 
 void factor(int x){
-    int dummy = x;
-    for(int i = 1; i <= dummy; i++){
+    for(int i = 1; i <= x; i++){
         if(x % i == 0){
             std::cout << i << " is a factor\n";
         }

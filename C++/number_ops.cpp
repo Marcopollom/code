@@ -4,7 +4,7 @@
 
 
 void factor(int x){
-    int dummy = std::ceil(x);
+    int dummy = x;
     for(int i = 1; i <= dummy; i++){
         if(x % i == 0){
             std::cout << i << " is a factor\n";

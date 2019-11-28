@@ -1,7 +1,10 @@
 #include <iostream>
+
 using namespace std;
 
-char Board[10] = {'o','1','2','3','4','5','6','7','8','9'};
+char Board[10] = {'D','1','2','3','4','5','6','7','8','9'};
+
+// D is for Dummy so I have an easier time printing the board :)
 
 int checkwin();
 void print_board();

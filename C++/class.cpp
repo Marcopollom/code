@@ -1,22 +1,25 @@
 #include <iostream>
 #include <string>
-#include <cmath>
 
-
-class XD{
+class Books{
     public:
-
-    std::string fname;
-    std::string lname;
+    std::string name;
+    double price;
+    std::string isbn;
     
-    XD(std::string x, std::string y){
-    fname = x;
-    lname = y;
+    Books(std::string x, double y, std::string z){
+        name = x;
+        price = y;
+        isbn = z;
+        
     }
+    
 };
 
 int main() {
-    XD rs("rohan","simon");
-    std::cout <<"First name: " << rs.fname << " Last name: " << rs.lname << "\n";
-
+    Books book1("The Gene", 12.59, "123456");
+    Books book2("Harry Potter and the Chamber of Secrets", 5.79, "246810");
+    
+    std::cout << book1.name << " is " << book1.price << " and has isbn: " << book1.isbn << "\n";
+    std::cout << book2.name << " is " << book2.price << " and has isbn: " << book2.isbn << "\n";
 }

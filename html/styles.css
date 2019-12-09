@@ -1,0 +1,77 @@
+html, body {
+    overflow-x: hidden;
+  }
+
+   body {
+    background-color: rgb(69, 95, 145); 
+   }
+
+  
+   h1 {
+    font-family: 'Allan';
+    font-size: 45px;
+    text-align: center;
+    margin: 0 -9999rem;
+    color: whitesmoke;
+    animation-name: CC;
+    animation-duration: 2.2s;
+    background: rgba(0, 0, 0, 0.5);
+   }
+
+   h2 {
+    font-family: 'Allan';
+    font-size: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 -9999rem;
+    color: whitesmoke;
+    animation-name: CC2;
+    animation-duration: 2.2s;
+   }
+
+   div {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 -9999rem;
+   }
+
+   p {
+       font-family: 'Allan';
+       font-size: 50px;
+       color: white;
+       padding: 0px;
+   }
+   body {
+       text-align: center;
+       padding: 0px;
+   }
+
+   @keyframes CC {
+       from {color: rgb(50, 184, 50); }
+       to {color: whitesmoke; }
+       50% {font-size: 50px;}
+   }
+   @keyframes CC2 {
+    from {color: rgb(50, 184, 50); }
+    to {color: whitesmoke; }
+
+}
+
+   #b1,#b2{
+       animation: up 2s ease infinite alternate;
+   }
+   #b2_2,#b4{
+    animation: up 3s ease infinite alternate;
+}
+
+   @keyframes up {
+       from {transform: rotateX(0deg)}
+       to {transform: rotateX(30deg);}
+   }
+
+   #sprinkles {
+       animation: ck 1.5s ease;
+   }
+   @keyframes ck {
+       from {transform: rotateZ(0deg);}
+       to {transform: rotateZ(360deg);}
+   }
